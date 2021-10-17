@@ -1,0 +1,29 @@
+.card:hover {
+    background-color: rgb(153, 212, 216)!important;
+    color: white!important;
+}
+.card:hover .service-title{
+    color: white;
+}
+
+.btn{
+    color: white!important;
+    font-weight: bold;
+    background-color: rgb(153, 212, 216)!important;
+    border: 1px solid white!important;
+}
+.card:hover .btn{
+    background-color: white!important;
+    color: rgb(153, 212, 216)!important;
+}
+.service-page-card:hover{
+    background-color: rgb(153, 212, 216)!important;
+    color: white!important;
+}
+
+.service-page-card:hover  .service-title{
+    color: white;
+}
+.service-page-card:hover .card-img{
+    border: 4px solid white!important;
+}

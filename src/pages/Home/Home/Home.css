@@ -1,0 +1,30 @@
+.services-heading{
+    color:rgb(115, 193, 199)!important; 
+    font-size: 3.2rem;
+}
+
+.service-title{
+    color:rgb(115, 193, 199); 
+}
+
+.card{
+    border: 2px rgb(115, 193, 199) solid ;
+}
+.card-img{
+    border: 4px rgb(115, 193, 199) solid!important ;
+}
+
+.card:hover .card-img{
+    border: 4px white solid!important ;
+}
+/* .btn{
+    background-color:rgb(88, 165, 170)!important; 
+    color: white!important;
+    border: none;
+}
+.btn:hover{
+    color:rgb(88, 165, 170)!important; 
+    background-color: white!important;
+    border: 3px rgb(88, 165, 170) solid;
+    
+} */

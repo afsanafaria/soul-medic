@@ -1,0 +1,26 @@
+.nav-link{
+    text-decoration: none;
+    color: white!important;
+    font-weight:600;
+    font-size: 1.1rem;
+}
+.nav{
+    background-color:  rgb(153, 212, 216)!important;
+}
+
+.logo{
+    color: white!important;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.logout{
+    color:rgb(153, 212, 216)!important; 
+    background-color: white!important;
+    font-weight: bold;
+    border: none;
+}
+.logout:hover{
+    background-color:rgb(88, 165, 170)!important; 
+    color: white!important;
+    
+}

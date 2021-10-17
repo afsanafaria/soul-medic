@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "service": "Nephrologist Care",
+        "doctorPic": "data:image/jpeg;base64,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",
+        "picture": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2016/04/Nephrologist-Care-400x400.jpg",
+        "name": "Jane Woodard",
+        "department": "Traumatology",
+        "departmentInfo": "Your tread must be light and sure, as though your path were upon rice paper. It is said, a Shaolin priest can walk through walls.",
+        "gender": "female",
+        "email": "janewoodard@acusage.com",
+        "descrition": "It seems today that all you see is violence in movies and sex on tv, but where are those good old-fashioned values on which we used to rely? Lucky there’s a family guy, lucky there’s a man who positively can do all the things that make us laugh and cry – he’s our family guy!.\r\n"
+    },
+    {
+        "id": 2,
+        "service": "Eye Care",
+        "doctorPic": "https://images.pulseheadlines.com/wp-content/uploads/2016/12/jejeje-1.jpg",
+        "picture": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2016/04/Facility-Optic-400x400.jpg",
+        "name": "Fran Huffman",
+        "department": "Pharmacy",
+        "departmentInfo": "Pharmacy is a crucial factor in medical factor. It should be planned and organized well. The pharmacy department has the responsibility for selecting purchasing, compounding, storing and dispensing all drugs and medications. The pharmacy should be under the supervision of a registered pharmacist.",
+        "gender": "female",
+        "email": "franhuffman@acusage.com",
+        "descrition": "Well we’re movin’ on up, to the east side. To a deluxe apartment in the sky. Movin’ on up, To the east side. We finally got a piece of the pie. Fish don’t fry in the kitchen, beans don’t burn on the grill. Took a whole lotta tryin’ just to get up that hill. Now we’re up in the big leagues, gettin’ our turn at bat. As long as we live, it’s you and me baby, There ain’t nothin’ wrong with that. Well we’re movin’ on up, to the east side. To a deluxe apartment in the sky. Movin’ on up, to the east side. We finally got a piece of the pie..\r\n"
+    },
+    {
+        "id": 3,
+        "service": "Pediatrician Clinic",
+        "doctorPic": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_25727021_original-400x400.jpg",
+        "picture": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2016/02/Depositphotos_11882261_original-400x400.jpg",
+        "name": "Figueroa Underwood",
+        "department": "Neurologist",
+        "departmentInfo": "You unlock this door with the key of imagination. Beyond it is another dimension: a dimension of sound, a dimension of sight, a dimension of mind. You're moving into a land of both shadow and substance, of things and ideas; you've just crossed over into the Twilight Zone.",
+        "gender": "male",
+        "email": "figueroaunderwood@acusage.com",
+        "descrition": "My kinda people, my kinda place. There’s something special about this place. Got no reason to stray too far, ’cause it’s all right here in my own backyard! This is a Burger King town, it’s made just for me! This is a Burger King town, we know how burgers should be! Right up the road, left at the sign. My way, your way, one at a time, hot off the fire with anything on it! And don’t it feel good when it’s just how you want it? This is a Burger King town, it’s made just for me! This is a Burger King town, we know how burgers should be.\r\n"
+    },
+    {
+        "id": 4,
+        "service": "Prenatal Care",
+        "doctorInfo": "Born and raised in Los Angeles, California. He graduated from the University of California, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 2nd of October, 1987",
+        "doctorPic": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_35019551_original-400x400.jpg",
+        "picture": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2016/04/prenatal-care-400x400.jpg",
+        "name": "Lenora Alston",
+        "department": "Urology",
+        "departmentInfo": "They're creepy and they're kooky, mysterious and spooky. They're all together ooky, the Addams Family. Their house is a museum where people come to see 'em. They really are a scream, the Addams Family. Neat. Sweet. Petite. So get a witches shawl on, a broomstick you can crawl on. We're gonna pay a call on the Addams Family.",
+        "gender": "female",
+        "email": "lenoraalston@acusage.com",
+        "descrition": "In an age when nature and magic rule the world, there is an extraordinary legend: the story of a warrior who communicates with animals, who fights sorcery and the unnatural. His name is Dar, last of his tribe. He is also called Beastmaster.The year is 1987 and NASA launches the last of America’s deep space probes. In a freak mishap, Ranger 3 and its pilot Captain William ‘Buck’ Rogers are blown out of their trajectory into an orbit which freezes his life support system and returns Buck Rogers to Earth five hundred years later.\r\n"
+    },
+    {
+        "id": 5,
+        "service": "Medical Counseling",
+        "doctorInfo": "Born and raised in Los Angeles, California. He graduated from the University of California, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 22nd of July, 1985.",
+        "doctorPic": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/01/male-doctor280x440.jpg",
+        "picture": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/service-11-400x400.jpg",
+        "name": "Acosta Davis",
+        "department": "Pediatric",
+        "departmentInfo": "One thousand years ago, superstition and the sword ruled. It was a time of darkness. It was a world of fear. It was the age of gargoyles. Stone by day, warriors by night, we were betrayed by the humans we had sworn to protect, frozen in stone by a magic spell for a thousand years. Now, here in Manhattan, the spell is broken, and we live again! We are defenders of the night! We are Gargoyles!",
+        "gender": "male",
+        "email": "acostadavis@acusage.com",
+        "descrition": "Extraordinary crimes against the people and the state had to be avenged by agents extraordinary. Two such people are John Steed, top professional; and his partner, Emma Peel, talented amateur… otherwise known as The AvengersMaking the world a better place, starts with one more smiling face. And Ronald’s smile is just the thing, To make everybody sing! Put a smile on, put a smile on, everybody come on! Put a smile on!.\r\n"
+    },
+    {
+        "id": 6,
+        "service": "Rehabilitation Center",
+        "doctorInfo": "Born and raised in Los Angeles, California. He graduated from the University of California, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 24th of June, 1980.",
+        "doctorPic": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/01/Depositphotos_12694888_original-400x400.jpg",
+        "picture": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Rehabilitation-400x400.jpg",
+        "name": "Steele Mcclure",
+        "department": "Xray",
+        "departmentInfo": "I bet we been together for a million years, And I bet we'll be together for a million more. Oh, It's like I started breathing on the night we kissed, and I can't remember what I ever did before. What would we do baby, without us? What would we do baby, without us? And there ain't no nothing we can't love each other through. What would we do baby, without us? Sha la la la.",
+        "gender": "male",
+        "email": "steelemcclure@acusage.com",
+        "descrition": "Qui cupidatat incididunt exercitation sunt eu et cupidatat tempor duis veniam reprehenderit irure proident quis. Minim irure officia fugiat quis nulla et cillum veniam anim est. Velit eu sunt ad ex irure aliquip ut ex in exercitation nostrud pariatur sint. Est mollit duis culpa exercitation nulla in ex consectetur et deserunt. Reprehenderit culpa mollit mollit esse irure culpa. Velit consequat commodo anim nulla in adipisicing ea ut consectetur adipisicing.\r\n"
+    },
+    {
+        "id": 7,
+        "service": "Eldery Care",
+        "doctorInfo": "Born and raised in Los Angeles, California. He graduated from the University of California, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 22th of December, 1984",
+        "doctorPic": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_13909652_original-400x400.jpg",
+        "picture": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/01/Eldery-Care-1-400x400.jpg",
+        "name": "Hattie Nielsen",
+        "department": "Cardiology",
+        "departmentInfo": "Here's the story of a lovely lady, who was bringing up three very lovely girls. All of them had hair of gold, like their mother, the youngest one in curls. Here's the store, of a man named Brady, who was busy with three boys of his own. They were four men, living all together, yet they were all alone. 'Til the one day when the lady met this fellow. And they knew it was much more than a hunch, that this group would somehow form a family.",
+        "gender": "female",
+        "email": "hattienielsen@acusage.com",
+        "descrition": "What walks down stairs, alone or in pairs, and makes a slinkity sound? A spring, a spring, a marvelous thing, everyone knows it’s Slinky. It’s Slinky, it’s Slinky, for fun it’s a wonderful toy. It’s Slinky, it’s Slinky, it’s fun for a girl or a boy. It’s fun for a girl or boy!What ever happened to predictability? The milkman, the paperboy, evening TV. Everywhere you look, everywhere you go, there’s a heart, a hand to hold onto. Everywhere you look, everywhere you go.\r\n"
+    },
+    {
+        "id": 8,
+        "doctorInfo": "Born and raised in Los Angeles, California. He graduated from the University of California, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of March, 1986",
+        "doctorPic": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_24201329_original-400x400.jpg",
+        "service": "Competitive Doctors",
+        "picture": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/01/service-5-400x400.jpg",
+        "name": "Normen John",
+        "department": "Dental",
+        "departmentInfo": "We never thought of findin' a place where we belong. Don't have to stand alone, we'll never let you fall. Don't need permission to decide what you believe. You gotta learn something when we meet you after school. I said jump, down on Jump Street. I said jump, down on Jump Street. Your friends will be there when your back is to the wall. You'll find you'll need us cause there's no one else to call. When it was hopeless a decision is what you need. You'd better be ready cause' your runnin' outta time. Say jump, 21 Jump, Street.",
+        "gender": "female",
+        "email": "normaljain@acusage.com",
+        "descrition": "In an age when nature and magic rule the world, there is an extraordinary legend: the story of a warrior who communicates with animals, who fights sorcery and the unnatural. His name is Dar, last of his tribe. He is also called Beastmaster.In time of ancient gods, warlords and kings, a land in turmoil cried out for a hero. She was Xena, a mighty princess forged in the heat of battle. The power. The passion. The danger. Her courage will change the world.\r\n"
+    }
+]
