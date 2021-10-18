@@ -6,8 +6,11 @@ import useAuth from '../../hooks/useAuth';
 import './Appointments.css'
 
 const Appointments = () => {
-    const { createNewUser, loginWithEmail, googleSignIn, email, setEmail, password, setPassword, error, setError } = useAuth();
+    const { createNewUser, loginWithEmail, isLoading, setIsLoading, googleSignIn, email, setEmail, password, setPassword, error, setError } = useAuth();
     const [isRegister, setIsRegister] = useState(false);
+    // const [isLoading, setIsLoading] = useState(true)
+
+
     // const [email, setEmail] = useState('');
     // const [pasword, setPassword] = useState('')
 
@@ -21,6 +24,8 @@ const Appointments = () => {
 
     const handleGoggle = (e) => {
         e.preventDefault();
+        // setIsLoading(true);
+
         googleSignIn()
             .then((result) => {
                 // console.log(result.user)
@@ -30,10 +35,15 @@ const Appointments = () => {
                 setError('')
 
             }).catch(error => setError(error.message))
+            .finally(() => setIsLoading(false));
     }
 
     const handleLogin = (e) => {
+
         e.preventDefault();
+        setIsLoading(true)
+        console.log("apppointment er user dekhaina")
+        console.log('from appointment', isLoading)
         loginWithEmail(email, password)
             .then(result => {
                 // setUser(result.user)
@@ -42,19 +52,23 @@ const Appointments = () => {
                 setError('')
 
             }).catch(error => setError(error.message))
+            .finally(() => setIsLoading(false));
     }
 
 
     const handleRegister = (e) => {
         e.preventDefault();
+        // setIsLoading(true)
         createNewUser(email, password)
             .then(result => {
                 // setUser(result.user)
                 // console.log(result.user)
+                // verifyEmail();
                 history.push(redirect_url)
                 setError('')
 
             }).catch(error => setError(error.message))
+            .finally(() => setIsLoading(false));
     }
 
 

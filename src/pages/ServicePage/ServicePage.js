@@ -15,7 +15,7 @@ const ServicePage = () => {
             .then(data => setDetails(data))
     }, [])
     const serviceDetails = details.find(s => s.id == serviceId);
-    console.log('from service page', serviceDetails)
+    // console.log('from service page', serviceDetails)
     // console.log('from service page', details);
 
     return (
@@ -32,7 +32,7 @@ const ServicePage = () => {
                     </Col>
                     <Col lg={6} md={6} className="d-flex justify-content-center align-items-center">
                         <div>
-                            <h4 className="service-title">{serviceDetails?.name}</h4>
+                            <h4 className="service-title">{serviceDetails?.service}</h4>
                             <p>{serviceDetails?.descrition}</p>
                             <h5 className="doctor-name">Doctor : {serviceDetails?.name}</h5>
                             <Link to="/complete"><Button>Appoint</Button></Link>

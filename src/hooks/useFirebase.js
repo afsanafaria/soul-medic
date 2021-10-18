@@ -10,6 +10,8 @@ const useFirebase = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
+    const [isLoading, setIsLoading] = useState(true)
+
 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
@@ -21,12 +23,14 @@ const useFirebase = () => {
             } else {
                 setUser({})
             }
+            setIsLoading(false)
         });
         return () => unsubscribe;
     }, [])
 
     const googleSignIn = () => {
         // e.preventDefault();
+        setIsLoading(true)
         return signInWithPopup(auth, googleProvider)
         // .then((result) => {
         //     setUser(result.user);
@@ -43,11 +47,11 @@ const useFirebase = () => {
             // Sign-out successful.
         }).catch((error) => {
             // An error happened.
-        });
+        }).finally(() => setIsLoading(false));;
     }
 
     const createNewUser = () => {
-
+        setIsLoading(true)
         return createUserWithEmailAndPassword(auth, email, password)
         // .then((result) => {
         //     // Signed in 
@@ -61,7 +65,7 @@ const useFirebase = () => {
     }
 
     const loginWithEmail = () => {
-
+        setIsLoading(true)
         return signInWithEmailAndPassword(auth, email, password)
         // .then((result) => {
         //     // Signed in 
@@ -74,6 +78,15 @@ const useFirebase = () => {
         // });
     }
 
+    // const verifyEmail = () => {
+    //     sendEmailVerification(auth.currentUser)
+    //         .then(result => {
+
+    //             // Email verification sent!
+    //             // ...
+    //         });
+    // }
+
 
 
     return {
@@ -84,6 +97,8 @@ const useFirebase = () => {
         setPassword,
         error,
         setError,
+        isLoading,
+        setIsLoading,
         createNewUser,
         loginWithEmail,
         googleSignIn,
