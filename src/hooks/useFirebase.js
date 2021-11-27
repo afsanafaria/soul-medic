@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, sendEmailVerification, updateProfile, signInWithEmailAndPassword, onAuthStateChanged, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth";
 import initializeAuthenthication from '../firebase/firebase.init';
 
 initializeAuthenthication();
@@ -47,7 +47,7 @@ const useFirebase = () => {
             // Sign-out successful.
         }).catch((error) => {
             // An error happened.
-        }).finally(() => setIsLoading(false));;
+        }).finally(() => setIsLoading(false));
     }
 
     const createNewUser = () => {
@@ -78,14 +78,17 @@ const useFirebase = () => {
         // });
     }
 
-    // const verifyEmail = () => {
-    //     sendEmailVerification(auth.currentUser)
-    //         .then(result => {
 
-    //             // Email verification sent!
-    //             // ...
-    //         });
-    // }
+    const verifyEmail = () => {
+        return sendEmailVerification(auth.currentUser)
+        // .then(result => {
+        //     console.log("from verifyEmail", result)
+        //     // Email verification sent!
+        //     // ...
+        // });
+
+    }
+
 
 
 
@@ -101,6 +104,7 @@ const useFirebase = () => {
         setIsLoading,
         createNewUser,
         loginWithEmail,
+        verifyEmail,
         googleSignIn,
         googleSignOut
     }

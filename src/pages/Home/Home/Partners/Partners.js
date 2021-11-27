@@ -11,7 +11,7 @@ const Partners = () => {
         <div className="partners my-4">
             <Container>
                 <h2 className=" services-heading mb-4 text-center">Our Partners</h2>
-                <Row className="w-100">
+                <Row className="w-100 mx-auto">
                     <Col md={3}>
                         <img className="w-100"
                             src={p1}

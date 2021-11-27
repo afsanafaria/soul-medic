@@ -7,10 +7,10 @@ const Services = () => {
     const { services } = useServices();
 
     return (
-        <div className="services mt-5 pt-5 text-center">
+        <div className="mx-auto services mt-5 pt-5 text-center">
             <Container>
                 <h2 className="services-heading">Services</h2>
-                <Row xs={1} md={3} className="g-4 w-100">
+                <Row xs={1} md={3} className="g-4 w-100 mx-auto">
                     {
                         services.map(service => <Service key={service.id} service={service}></Service>)
                     }

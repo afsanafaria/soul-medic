@@ -7,7 +7,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const Philosophy = () => {
     return (
         <div className="philosophy mt-5">
-            <Container fluid>
+            <Container>
                 <Row className="w-100 g-0">
                     <Col md={6}>
                         <img className="w-100"

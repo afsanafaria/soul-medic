@@ -6,7 +6,7 @@ import useAuth from '../../hooks/useAuth';
 import './Appointments.css'
 
 const Appointments = () => {
-    const { createNewUser, loginWithEmail, isLoading, setIsLoading, googleSignIn, email, setEmail, password, setPassword, error, setError } = useAuth();
+    const { createNewUser, loginWithEmail, isLoading, verifyEmail, setIsLoading, googleSignIn, email, setEmail, password, setPassword, error, setError } = useAuth();
     const [isRegister, setIsRegister] = useState(false);
     // const [isLoading, setIsLoading] = useState(true)
 
@@ -24,8 +24,7 @@ const Appointments = () => {
 
     const handleGoggle = (e) => {
         e.preventDefault();
-        // setIsLoading(true);
-
+        setIsLoading(true);
         googleSignIn()
             .then((result) => {
                 // console.log(result.user)
@@ -55,6 +54,15 @@ const Appointments = () => {
             .finally(() => setIsLoading(false));
     }
 
+    const handleVerifyEmail = () => {
+
+        verifyEmail()
+            .then((result) => {
+                console.log("verifyemail", result)
+                // Email verification sent!
+                // ...
+            });
+    }
 
     const handleRegister = (e) => {
         e.preventDefault();
@@ -63,7 +71,7 @@ const Appointments = () => {
             .then(result => {
                 // setUser(result.user)
                 // console.log(result.user)
-                // verifyEmail();
+                handleVerifyEmail();
                 history.push(redirect_url)
                 setError('')
 
