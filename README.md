@@ -5,7 +5,7 @@
 ## Important Info?
   * Developed with React and react-bootstrap and firebase implementation.
   * Has a Private Route.
-  * Users can ligin by google.
+  * Users can login by google.
   * Can get any service.
   
     
